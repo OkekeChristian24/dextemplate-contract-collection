@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers around BEP20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeBEP20 for IBEP20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
+			"kind": "dev",
+			"methods": {},
+			"title": "SafeBEP20",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flutterswap-swap-lib/contracts/token/SafeBEP20.sol": "SafeBEP20"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"flutterswap-swap-lib/contracts/math/SafeMath.sol": {
+			"keccak256": "0xd4b1686c1494213666dc1423cea64333c3063f334327216d69ca3d59f75a2517",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a3c967dc005a8966266b6052724b7cd04231c6d95abcc03f49e1cbb9ffb890a",
+				"dweb:/ipfs/QmRWofmmac5HLRYpMTDQLzmgZyJYeYLB2MY8uTFRKfJuJL"
+			]
+		},
+		"flutterswap-swap-lib/contracts/token/IBEP20.sol": {
+			"keccak256": "0xcca9eeefad9d3c8a68e426833a5c790d055beebc3f1cefbeac20b096456c9aef",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://61090ac66da4fcf117cb95119cda4c45b5bcf9f8a48203444b0f97b39a9ccbd1",
+				"dweb:/ipfs/Qmb1XnfUGdZ7ma31WqhGMaE9mWug1erEUh8xEYvvjZ5v4r"
+			]
+		},
+		"flutterswap-swap-lib/contracts/token/SafeBEP20.sol": {
+			"keccak256": "0xbf44a7435e5092f13e0463b7de81841ad945a475c5032ad1f59ee0e9b2a8b6de",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d0d8657ee930536d0187f8673d2e54f2bcf250dde022b47eaae4934007676ac",
+				"dweb:/ipfs/QmdKP5VAAcqHAsRbEbFRhQKimpkcmepfyHh3YNuPeSBwfc"
+			]
+		},
+		"flutterswap-swap-lib/contracts/utils/Address.sol": {
+			"keccak256": "0xb2ff71cf33d07964024b98ed45eff55e1a6f2c28e3f752dfd89aa2730da3cdc1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4204f19dbe965cbe3694bd9cbe8bc24677b59739f6c56072e196f7c23e7b57e",
+				"dweb:/ipfs/QmU3jXoiFRH6UEDBGp64LncC61YFHkbLwippyJnyLXdXBL"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"flutterswap-swap-lib/contracts/utils/Address.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"flutterswap-swap-lib/contracts/utils/Address.sol": {
+			"keccak256": "0xb2ff71cf33d07964024b98ed45eff55e1a6f2c28e3f752dfd89aa2730da3cdc1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4204f19dbe965cbe3694bd9cbe8bc24677b59739f6c56072e196f7c23e7b57e",
+				"dweb:/ipfs/QmU3jXoiFRH6UEDBGp64LncC61YFHkbLwippyJnyLXdXBL"
+			]
+		}
+	},
+	"version": 1
+}
